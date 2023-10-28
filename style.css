@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(192, 27, 27);
+}
+.background{
+    width: 34%;
+    height: 720px;
+    margin-left: 33.2rem;
+    margin-top: -13rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.listElement{
+    margin-left: 43rem;
+    margin-top: 15rem;
+}
+.addButton{
+    margin-left: .7rem;
+    border-radius: 1rem;
+    background-color: aqua;
+    width: 4%;
+    cursor: pointer;
+
+}
+.list{
+    margin-left: 46rem;
+    margin-top: -8rem;
+}
+
+#listImg{
+    height: 45px;
+    margin-top: -.7rem;
+    margin-left: 48rem; 
+}
+#sonuc{
+    width: 415px;
+    position: fixed;
+    margin-left:35.5rem; 
+    margin-top: 3rem;
+    cursor:default  
+
+}
+.deleteButton{
+    height: 20px;
+    width: 40px;
+    background-color: orange;
+    color: white;
+    margin-left: 26.3rem; 
+    position: relative;
+    top: 2.2rem;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 680px) {
+
+.background{
+    width: 95%;
+    margin-left: .5rem;
+    margin-top: -10rem;
+    height: 600px;
+} 
+.list{
+    margin-left: 8rem;
+    margin-top: -11rem;
+}
+#listImg{
+    margin-left: 10rem;
+}
+.listElement{
+    margin-left: 5rem;
+}
+.addButton{
+  margin-top: 1rem;
+}
+#sonuc{
+    margin-left: 1.2rem;
+    margin-top: 5rem;
+}
+
+}
+
+
